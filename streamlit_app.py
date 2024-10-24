@@ -38,3 +38,5 @@ if remainder == 4:
    st.text("ホルトホール")
 if remainder == 0:
    st.text("StarbucksCoffee")
+
+st.text('あなたの勉強場所は「{remainder}」です')
