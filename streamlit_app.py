@@ -26,6 +26,8 @@ st.caption("十字キー（左右）でも調整できます。")
 # 選択した数字を表示
 st.write(f'あなたが選んだ数字は「{number}」です。')
 
+st.write('あなたへのおすすめ勉強場所は')
+
 #5で割ったときの余りを出す
 remainder = number % 5
 if remainder ==1: 
@@ -39,4 +41,4 @@ if remainder == 4:
 if remainder == 0:
    st.text("StarbucksCoffee")
 
-st.text('あなたの勉強場所は「{remainder}」です')
+st.write('です')
