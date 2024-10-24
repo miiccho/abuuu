@@ -28,13 +28,13 @@ st.write(f'あなたが選んだ数字は「{number}」です。')
 
 #5で割ったときの余りを出す
 remainder = number % 5
-if remainder = 1: 
+if remainder ==1: 
    st.text("図書館")
-if remainder = 2:
+if remainder == 2:
    st.text("同総会館")
-if remainder = 3:
+if remainder == 3:
    st.text("自宅")
-if remainder = 4:
+if remainder == 4:
    st.text("ホルトホール")
-if remainder = 0:
+if remainder == 0:
    st.text("StarbucksCoffee")
